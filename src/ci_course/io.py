@@ -19,7 +19,7 @@ def sample_data_path():
 
 
 def load_measurements(path=None, errors = None):
-    if errors == None:
+    if errors is None:
        errors = []
     """
     Load a table of measurements from a CSV file.
